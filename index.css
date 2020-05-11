@@ -1,0 +1,14 @@
+/*Author: Mathias Werner*/
+body{
+    background-color: #22C148;
+}
+
+h1{
+    background-color: red;
+}
+h2{
+    background-color: grey;
+}
+ul{
+    list-style-type: none;
+}
