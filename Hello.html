@@ -1,0 +1,60 @@
+<html>
+    <head>  
+        <title>About me - Mathias
+            <meta name="description" content="This is a personal web page about Mathias">
+            <meta name="viewport" content="width-device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="index.css" type="text/css" />
+            
+        </title>
+    </head>
+    
+    <body>
+        <h1 id="headingone" heading="one">
+            About me
+        </h1>
+        
+        <!-- This is navigation of the website -->
+        
+        <nav>
+                <a target="_blank" href="http://www.linkedin.com/in/mathiaswerner/">Linkedin</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="contact.html">Contact</a>
+                <a href="movies.html">Search Movies</a>
+        </nav>
+        
+        <ul>
+            <li>
+                <img alt="This is a image of Mathias" src="profile.jpg"></img>
+            </li>
+        </ul>
+        
+        <center><p>Hi, I am Mathias and I am from Germany. </p></center>
+        
+        <hr>
+        
+        <h2>Hobbies</h2>
+        
+        <ul>
+                <li>Running</li>
+                <li>Snowboarding</li>
+                <li>Surfing</li>
+        </ul>
+
+        <button id="changeColorButton">Click to change color</button>
+        
+        <footer> Copyright 2020 @ Mathias</footer>
+        
+        <script>
+                
+                console.log('Hello everyone!');
+                document.getElementsByID('changeColorButton').oneclick = function(){
+                    if (document.body.style.backgroundColor === 'black') {
+                        document.body.style.backgroundColor = 'white';
+                    } else {
+                    document.body.style.backgroundColor = 'black';
+                    }
+                    };
+                
+                
+            </script>
+    </body>
